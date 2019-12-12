@@ -1,0 +1,24 @@
+.body {
+background-color: antiquewhite;
+}
+.label {
+font-size: small;
+}
+.container {
+min-width: 150px;
+}
+button {
+height: 30px;
+width: 100%;
+outline: none;
+font-size: small;
+}
+.media {
+max-width:100%;
+height: auto;
+}
+.optionlink {
+text-decoration: none;
+color: black;
+float: right;
+}
