@@ -8,6 +8,9 @@ font-size: small;
 min-width: 150px;
 max-width: 200px;
 }
+.wide {
+max-width: 900px;
+}
 button {
 height: 30px;
 width: 100%;
@@ -23,3 +26,27 @@ text-decoration: none;
 color: black;
 float: right;
 }
+.gbbtn{
+    background-color: rgb(33, 208, 122);
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Ubuntu, helvetica neue, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    }

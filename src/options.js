@@ -1,4 +1,4 @@
-// Copyright 2019 Harambe's Toolkit Authors, All Rights Reserved
+// Copyright 2019-2020 Harambe's Toolkit Authors, All Rights Reserved
 let baseapi = null;
 let browserType = '';
 if (typeof browser != 'undefined') {
@@ -27,6 +27,7 @@ function save_options() {
         status.textContent = '';
       }, 750);
     });
+    closetab();
   }
 
 function restore_options() {
